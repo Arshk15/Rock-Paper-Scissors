@@ -1,0 +1,76 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg, #f9f9f9, #e6f7ff);
+}
+
+.game{
+    height: 90vh;
+}
+
+.moves{
+    height: 40vmin;
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move:hover{
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+
+img{
+    height: 247px;
+    width: 247px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.score-card{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    height: 130px;
+    width: 1000px;
+    font-size: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(166, 93%, 72%);
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.win {
+    background-color: #80f9c4;
+    color: black;
+}
+.lose {
+    background-color: #fa6e70;
+    color: white;
+}
+.draw {
+    background-color: #FFECA1;
+    color: black;
+}
